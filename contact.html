@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ecomarse</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="image/logo.png" width="125 px" />
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Catagorie</a>
+                        <div class="sub-manu">
+                            <ul>
+                                <li><a href="shirt.html">Shirt</a></li>
+                                <li><a href="#">T-Shirt</a></li>
+                                <li><a href="#">Pant</a></li>
+                                <li><a href="watches.html">Watch</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                </ul>
+            </nav>
+            
+        </div>
+
+       <section class="contact-section" id="contact">
+        <div class="row">
+            <h2>GET IN TOUCH</h2>
+            
+        </div>
+
+        <div class="row">
+            <form action="https://formspree.io/hridoy461995@gmail.com" method="POST">
+                <div class="row">
+                    <div class="col span_1_of_2">
+                        <input type="text" name="Name" placeholder="Your name *" required>
+                    </div>
+
+                    <div class="col span_1_of_2">
+                        <input type="email" name="Email" placeholder="Your Email *" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <textarea name="Massage" cols="30" rows="10" placeholder=" your massage *" required></textarea>
+                </div>
+                
+                <div class="row">
+                    <input type="submit" value="send massage" class="btn btn-submit">
+                </div>
+
+            </form>
+        </div>
+    </section>
